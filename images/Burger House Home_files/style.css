@@ -1,4 +1,4 @@
-/* -- common start --- */
+/* --- common start ---  */
 *{
      margin: 0;
      padding: 0;
@@ -31,9 +31,9 @@ img{
      max-width: 100%;
      height: auto;
 }
-/* --- common end ---  */
+/* ---- common end ----  */
 
-/* --- header start --  */
+/* --- header start ---  */
 .header{
 	height: 100vh;
 	background: url("../images/banner.jpg");
@@ -201,7 +201,7 @@ img{
 .info .card:hover img{
      transform: scale(1.2);
 }
-/*---- info css end ----*/
+/*---- info css end -----*/
 
 /*---- choose  start ---*/
 .choose{
@@ -260,7 +260,7 @@ img{
 
 }
 .burger-img p{
-	font-family: 'Montserrat', sans-serif;
+		font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
 	line-height: 24px;
 	font-weight: 200px;
@@ -283,7 +283,7 @@ img{
 	background: #bf2222;
 	padding: 10px 35px;
 	color: #fff;
-     	transition: all linear .4s;
+     transition: all linear .4s;
 
 }
 .burger-img .btn-primary:hover{
@@ -294,11 +294,10 @@ img{
 
 }
 
-/* --- choose end -- -- */
-/* --- Slider start --- */
+/* ---- choose end -- -- */
+/* ---- Slider start --- */
 .slider{
 	padding: 65px 40px;
-	padding-bottom: 25px;
 }
 
 .slider-item{
@@ -353,16 +352,15 @@ img{
   border-radius: 30px;
 }
 
-/* --- Slider  end -- */
-/*-- reserve start -- */
+/* ---- Slider  end ---- */
+/* ---- reserve start -- */
 .reservation{
-	padding: 105px 0 250px 0 ;
-	background: url(../images/reserve.jpg)center top no-repeat  ;
+	padding: 340px 0;
+	background: url(../images/reserve.jpg)center no-repeat  ;
 	background-size: cover;
 }
 .reservation .heading{
 	text-align: center;
-	padding-bottom: 80px;
 }
 .heading h4{
 	font-size: 30px;
@@ -378,128 +376,4 @@ img{
 	font-weight: 400;
 	text-transform: uppercase;
 }
-.contact-form .form-control {
-	font-size: 1rem;
-	color: #212529;
-	background-color: transparent;
-	border: 1px solid #bdbdbd;
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	padding: 18px 16px;
-}
-.form-control:focus {
-	box-shadow: none;
-}
-.form-control input, input::placeholder {
-    font-size: 20px;
-    text-transform: uppercase;
-    font-family: 'Bebas Neue', cursive;
-    font-weight: normal;
-}
-.btn-primary {
-	color: #ffffff;
-	background-color: #bf2222;
-	border-color: #bf2222;
-	display: block;
-	font-family: 'Alfa Slab One', cursive;
-	font-weight: normal;
-	padding: 18px 40px;
-	transition: all linear .4s;
-	
-      }
-.btn-primary:hover {
-	color: #bf2222;
-	background-color: transparent;
-	border-color: #bf2222;
-      }
-.btn {
-	text-transform: uppercase;
-	letter-spacing: 1px;
-      }
-.btn-check:focus + .btn-primary, .btn-primary:focus {
-	color: #bdbdbd;
-	background-color: transparent;
-	border-color: #bdbdbd;
-	;
-	box-shadow: none;
-      }
-/* --- reserve  end --- */
-/* --- footer start --- */
-.footer{
-	padding-bottom: 65px;
-}
-.main-footer{
-	background: url(../images/footer.jpg) center top no-repeat ;
-	background-size: cover;
-	width: 100%;
-	padding: 85px 20px 10px 40px;
-}
-.footer-item p{
-	color: #fff;
-	padding-top: 50px;
-	font-size: 16px;
-	line-height: 26px;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 400;
-	padding-right: 40px;
-}
-.footer-item2 {
-	padding-top: 80px;
-	padding-left: 211px;
-          }
-.footer-item2 img{
-	margin-right: 25px;
-}
-.footer-item2 p{
-	font-family: 'Bebas Neue', cursive;
-	font-weight: normal;
-	color: #fff;
-	font-size: 20px;
-	text-transform: uppercase;
-	
-}
-.copyright{
-	padding-top: 145px;
-}
-.copyright p{
-	color: #fff;
-	font-size: 16px;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 400;
-	padding-top: 15px;
-	text-transform: uppercase;
-}
-.copyright p a{
-	color: #fff;
-	font-size: 16px;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 400;
-	padding-top: 15px;
-}
-.social-icon{
-	text-align: right;
-}
-.social-icon li{
-	display: inline-block;
-	margin: 0 10px 0 0;
-}
-.social-icon a{
-	display: block;
-}
-.social-icon i {
-	width: 35px;
-	height: 35px;
-	background-color: #fff;
-	color: #111;
-	text-align: center;
-	line-height: 35px;
-	border-radius: 50%;
-	font-size: 22px;
-	transition:
-	 all linear.4s;
-}
-.social-icon i:hover{
-	color: #fff;
-	background-color: #2c3e50;
-}
-/* --- footer end --- */
+/* --- reserve  end ---- */
